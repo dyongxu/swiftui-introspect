@@ -1,6 +1,8 @@
 #if !os(watchOS)
 @_spi(Advanced)
 
+import UIKit
+
 @MainActor
 public struct IntrospectionSelector<Target: PlatformEntity> {
     @_spi(Advanced)
